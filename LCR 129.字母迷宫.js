@@ -45,13 +45,13 @@ function backTracking(board, word, i, j, startIndex){
 
     const dx = [-1, 0, 1, 0], dy = [0, 1, 0, -1]
     // 遍历相邻节点
-    board[i][j] = ''    // 剪枝掉重复节点
+    board[i][j] = ''    // 剪枝掉重复节点（相当于visited）
     for(let k = 0; k < 4; k++){
         let x = i + dx[k], y = j + dy[k]
         // 存在路径则返回
         if(backTracking(board, word, x, y, startIndex+1)) return true
     }
-    board[i][j] = word[startIndex]  // 恢复节点
+    board[i][j] = word[startIndex]  // 恢复节点（相当于取消visited标记）
     return false    // 没有找到路径
 }
 // @lc code=end
