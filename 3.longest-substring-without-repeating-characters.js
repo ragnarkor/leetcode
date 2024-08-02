@@ -59,6 +59,7 @@ var lengthOfLongestSubstring = function(s) {
  *  - dp[j-1] < j-i，说明s[i]在dp[j-1]的区间之外，dp[j] = dp[j-1] + 1
  *  - dp[j-1] >= j-i，说明s[i]在dp[j-1]的区间中，无重复长度由i决定，dp[j] = i-j
  * 3. dp[0] = 0
+ * 题解：Goodnotes-动态规划·最长不含重复字符的子字符串
  * 题解：https://leetcode.cn/problems/longest-substring-without-repeating-characters/solutions/2361797/3-wu-zhong-fu-zi-fu-de-zui-chang-zi-chua-26i5/
  */
 
