@@ -17,7 +17,7 @@
 var longestPalindrome = function(s) {
     // 初始化dp二位数组
     const n = s.length
-    const dp = Array.from({length: n},() => new Array(n).fill(false))
+    const dp = Array.from({length: n},() => new Array(n).fill(false))   // 妙！
     
     let startIndex, endIndex    // 存放回文子串索引
     let maxLength = 0
