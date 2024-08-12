@@ -37,6 +37,13 @@ MagicDictionary.prototype.buildDict = function(dictionary) {
  * @return {boolean}
  */
 MagicDictionary.prototype.search = function(searchWord) {
+    /**
+     * 遍历字典树，判断是否有符合条件的单词
+     * @param {*} root 当前节点
+     * @param {*} pos 遍历层级
+     * @param {*} modified 字母是否被修改
+     * @returns 
+     */
     function dfs(root, pos, modified){
         // 遍历到单词末尾
         if(pos === searchWord.length)
