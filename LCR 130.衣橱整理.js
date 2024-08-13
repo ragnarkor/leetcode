@@ -18,7 +18,7 @@
  */
 var wardrobeFinishing = function(m, n, k) {
     // 创建棋盘
-    const board = Array.from({length: m}, v => new Array(n).fill(0))
+    const board = Array.from({length: m}, v => new Array(n).fill(0))    // 妙！
     // const board = new Array(m).fill(0).map(v => new Array(n).fill(0))
     return backTracking(board, 0, 0, k)
 };
