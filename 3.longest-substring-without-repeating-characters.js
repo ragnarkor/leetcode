@@ -15,6 +15,22 @@
  * @return {number}
  */
 var lengthOfLongestSubstring = function(s) {
+    // 法一：滑动窗口·set
+    const n = s.length;
+    const set = new Set()
+    let ans = 0, i = 0, j = 0
+    while (i < n && j < n) {
+        // try to extend the range [i, j]
+        if (!set.has(s[j])){
+            set.add(s[j++]);
+            ans = Math.max(ans, j - i);
+        }
+        else {
+            set.delete(s[i++]);
+        }
+    }
+    return ans
+
     // 法一：滑动窗口
     // const dict = new Map()
     // let left = -1, ans = 0  // (left, right]
@@ -28,18 +44,18 @@ var lengthOfLongestSubstring = function(s) {
     // return ans
 
     // 法二：动态规划
-    const dict = new Map()
-    let dp0 = 0, ans = 0
-    for(let j = 0; j < s.length; j++){
-        let i = dict.has(s[j]) ? dict.get(s[j]) : -1
-        dict.set(s[j], j)   // 更新dict
-        if(dp0 < j-i)
-            dp0 = dp0 + 1
-        else
-            dp0 = j-i
-        ans = Math.max(dp0, ans)
-    }
-    return ans
+    // const dict = new Map()
+    // let dp0 = 0, ans = 0
+    // for(let j = 0; j < s.length; j++){
+    //     let i = dict.has(s[j]) ? dict.get(s[j]) : -1
+    //     dict.set(s[j], j)   // 更新dict
+    //     if(dp0 < j-i)
+    //         dp0 = dp0 + 1
+    //     else
+    //         dp0 = j-i
+    //     ans = Math.max(dp0, ans)
+    // }
+    // return ans
 };
 // @lc code=end
 
