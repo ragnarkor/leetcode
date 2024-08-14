@@ -29,13 +29,12 @@ var findRepeatDocument = function(documents) {
     }
     return -1
 };
-// @lc code=end
-
 /**
  * 交换排序，将文件位置移动到对应的下标上
  * 如果下标位置上有文件，且下标位置对应，则表明遇到重复文件
- * 
  */
+// @lc code=end
+
 
 /*
 // @lcpr case=start

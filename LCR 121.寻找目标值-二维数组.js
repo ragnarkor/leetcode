@@ -47,7 +47,6 @@ var findTargetIn2DPlants = function(matrix, target) {
 //     }
 //     return false
 // };
-// @lc code=end
 
 /**
  * 法一：
@@ -59,6 +58,9 @@ var findTargetIn2DPlants = function(matrix, target) {
  *      - target > matrix[row][col]，target大于这行最大元素，row++
  *      - target < matrix[row][col]，target小于这列最小元素，col--
  */
+// @lc code=end
+
+
 
 /*
 // @lcpr case=start

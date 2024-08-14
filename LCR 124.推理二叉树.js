@@ -52,7 +52,6 @@ var deduceTree = function(preorder, inorder) {
   
     return buildTree(0, preorder.length-1, 0, inorder.length-1)
   };
-// @lc code=end
 
 /**
  * 前序遍历为[根|左|右]
@@ -61,6 +60,9 @@ var deduceTree = function(preorder, inorder) {
  * 1. 通过前序遍历确定根节点
  * 2. 在中序遍历中找到根节点索引，划分左右子树，完成重建
  */
+// @lc code=end
+
+
 
 /*
 // @lcpr case=start

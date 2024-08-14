@@ -21,7 +21,6 @@ var findValueOfPartition = function(nums) {
         diff = Math.min(diff, nums[i] - nums[i-1])    // nums[i] >= nums[i-1]
     return diff
 };
-// @lc code=end
 
 /**
  * 思路：分区最小值是排序后相邻数字的绝对值最小差
@@ -30,6 +29,9 @@ var findValueOfPartition = function(nums) {
  * 3. <=nums[i-1]的分到第一个数组，>=nums[i]的分到第二个数组
  * 时间复杂度O(nlogn)，即排序算法复杂度
  */
+// @lc code=end
+
+
 
 /*
 // @lcpr case=start

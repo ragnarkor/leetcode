@@ -45,7 +45,6 @@ var findMaximumElegance = function(items, k) {
     }
     return ans
 };
-// @lc code=end
 
 /**
  * 先以profit为base，再考虑category会不会变大
@@ -58,6 +57,8 @@ var findMaximumElegance = function(items, k) {
  *         必选原因：按照贪心思想，后面出现的选择profit更低，这个已经是最好选择
  * 3. 更新答案，取最大值（新加入的选项未必会比之前利润高）
  */
+// @lc code=end
+
 
 /*
 // @lcpr case=start

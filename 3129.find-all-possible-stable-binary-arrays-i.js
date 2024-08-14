@@ -54,7 +54,6 @@ var numberOfStableArrays = function(zero, one, limit) {
 
     return (dfs(zero, one, 0) + dfs(zero, one, 1)) % MOD
 };
-// @lc code=end
 
 /**
  * 思路：记忆化搜索
@@ -67,6 +66,9 @@ var numberOfStableArrays = function(zero, one, limit) {
  * 4. 直接递推会超时，需引入memo
  * 题解：https://www.bilibili.com/video/BV16t421c7GB/?vd_source=0803747abec14f63312f7ed860d78d60
  */
+// @lc code=end
+
+
 
 /*
 // @lcpr case=start

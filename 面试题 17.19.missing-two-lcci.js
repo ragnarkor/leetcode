@@ -38,8 +38,6 @@ var missingTwo = function(nums) {
     }
     return [x1, x2]
 };
-// @lc code=end
-
 /**
  * 位运算，核心思想 x ^ x = 0，0 ^ x = x
  *  1. 在原数组后面添加1~n，数组长度扩充为2n-2
@@ -50,6 +48,9 @@ var missingTwo = function(nums) {
  *      - n & l 可以判断 n 的第l位是否为1
  *  4. 两堆分别异或，得出各自缺失数字
  */
+// @lc code=end
+
+
 
 /*
 // @lcpr case=start

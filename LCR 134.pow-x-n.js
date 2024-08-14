@@ -20,7 +20,7 @@ var myPow = function(x, n) {
     // 当n为负数时
     if(n < 0){
         x = 1 / x
-        n--
+        n = -n
     }
     
     let res = 1
@@ -32,11 +32,12 @@ var myPow = function(x, n) {
     }
     return res
 };
-// @lc code=end
-
 /**
  * 题解：Goodnotes-位运算·数值的整数次方
  */
+// @lc code=end
+
+
 
 /*
 // @lcpr case=start

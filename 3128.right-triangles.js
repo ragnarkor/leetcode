@@ -32,14 +32,17 @@ var numberOfRightTriangles = function(grid) {
         }
     }
     return res
+
+    /**
+     * 思路：有3个顶点，枚举中间顶点
+     * 1. 统计中间节点的列上有c个1
+     * 2. 统计中间节点的行上有l个1
+     * 3. 该顶点有(c-1)*(l-1)个直角三角形
+     */
 };
 // @lc code=end
 
 /**
- * 思路：有3个顶点，枚举中间顶点
- * 1. 统计中间节点的列上有c个1
- * 2. 统计中间节点的行上有l个1
- * 3. 该顶点有(c-1)*(l-1)个直角三角形
  * 题解：https://www.bilibili.com/video/BV16t421c7GB/?vd_source=0803747abec14f63312f7ed860d78d60
  */
 

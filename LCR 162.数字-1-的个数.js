@@ -29,11 +29,11 @@ var digitOneInNumber = function(n) {
     }
     return res
   };
-// @lc code=end
+  /**
+  * 题解：Goodnotes-数学·找规律·1～n整数中1出现的次数
+  */
+  // @lc code=end
 
-/**
- * 题解：Goodnotes-数学·找规律·1～n整数中1出现的次数
- */
 
 /*
 // @lcpr case=start

@@ -15,7 +15,7 @@
  * @param {number} cnt
  * @return {number}
  */
-var maxmiumScore = function(cards, cnt) {
+var maximumScore = function(cards, cnt) {
     cards = cards.sort((a, b) => b - a)
     let sum = cards.slice(0, cnt).reduce((total, val) => total + val, 0)
     // sum为偶数直接返回
@@ -47,9 +47,6 @@ var maxmiumScore = function(cards, cnt) {
     return res
 };
 
-
-// @lc code=end
-
 /**
  * 思路：贪心算法
  * 1. 将卡牌从大到小排序，前cnt个数相加之和为sum
@@ -59,6 +56,8 @@ var maxmiumScore = function(cards, cnt) {
  *  - 比较两个结果，取最大值
  * 时间复杂度O(nlogn)，空间复杂度O(1)
  */
+// @lc code=end
+
 
 /*
 // @lcpr case=start

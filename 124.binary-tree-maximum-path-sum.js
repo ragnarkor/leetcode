@@ -37,7 +37,6 @@ var maxPathSum = function(root) {
     dfs(root)
     return res
 };
-// @lc code=end
 
 /**
  * 最大路径和 = （左子树最大路径和 + 右子树最大路径和）+ 当前节点值
@@ -45,6 +44,9 @@ var maxPathSum = function(root) {
  * 1.最长路径如果为负数则不选择，0表示不选择为负数的节点
  * 2.对于全是负数的树，最长的路径只包括一个节点，即最小负数值
  */
+// @lc code=end
+
+
 
 /*
 // @lcpr case=start

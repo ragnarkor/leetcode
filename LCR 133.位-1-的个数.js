@@ -31,14 +31,15 @@ var hammingWeight = function(n) {
     }
     return res;
 };
-// @lc code=end
-
 /**
  * 思路：
  * 1. n-1：二进制数字n最右边的1变成0，最右边后面的0都变成1
  * 2. n&(n-1)：二进制数字n最右边的1变成0，其余不变
  * 题解：Goodnotes-位运算·二进制中1的个数
  */
+// @lc code=end
+
+
 
 /*
 // @lcpr case=start

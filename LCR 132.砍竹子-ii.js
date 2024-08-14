@@ -35,12 +35,14 @@ function pow(x, a){
     }
     return rem
 }
-// @lc code=end
 
 /**
  * 题解：Goodnotes-大数求余
  * 题解：https://leetcode.cn/problems/jian-sheng-zi-ii-lcof/solutions/106190/mian-shi-ti-14-ii-jian-sheng-zi-iitan-xin-er-fen-f/
  */
+// @lc code=end
+
+
 
 /*
 // @lcpr case=start

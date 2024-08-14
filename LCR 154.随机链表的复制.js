@@ -79,11 +79,12 @@ var copyRandomList = function(head) {
 
 //     return map.get(head)   // 返回存储在哈希表中的头节点
 // };
-// @lc code=end
-
 /**
  * 题解：Goodnotes-复杂链表的复制
  */
+// @lc code=end
+
+
 
 
 /*

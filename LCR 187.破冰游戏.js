@@ -29,12 +29,14 @@ var iceBreakingGame = function(n, m) {
 //     const y = iceBreakingGame(n-1, m) // 获取剩下 n-1 个数的幸存者的相对位置
 //     return (x + y) % n  // 在n中恢复幸存者的位置
 // };
-// @lc code=end
 
 /**
  * 题解：Goodnotes-约瑟夫环
  * 视频：https://www.bilibili.com/video/BV1KP411L7VH?p=68&vd_source=0803747abec14f63312f7ed860d78d60
  */
+// @lc code=end
+
+
 
 /*
 // @lcpr case=start

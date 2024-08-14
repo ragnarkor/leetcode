@@ -56,6 +56,10 @@ var lengthOfLongestSubstring = function(s) {
     //     ans = Math.max(dp0, ans)
     // }
     // return ans
+
+    /**
+     * 题解：Goodnotes-动态规划·最长不含重复字符的子字符串
+     */
 };
 // @lc code=end
 

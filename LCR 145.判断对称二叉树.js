@@ -35,11 +35,12 @@ function isMirror(left, right){
     // left的左子树与right的右子树相同 && left的右子树与right的左子树相同 时，两棵二叉树对称
     return isMirror(left.left, right.right) && isMirror(left.right, right.left)
 }
-// @lc code=end
-
 /**
  * 题解：Goodnotes-对称二叉树
  */
+// @lc code=end
+
+
 
 /*
 // @lcpr case=start

@@ -32,8 +32,6 @@ var stockManagement = function(stock) {
     }
     return stock[left] // 左右指针相遇
 };
-// @lc code=end
-
 /**
  * 排序数组的查找优先考虑二分法
  * 本问题可以分为左排序数组和右排序数组，且左排序数组的每一个元素都大于右排序数组，我们需要寻找右排序数组的最小元素
@@ -45,6 +43,9 @@ var stockManagement = function(stock) {
  * 6. mid = right，缩小问题规模，right--
  * 故mid只用跟right比较大小，左右指针相遇时即为旋转点
  */
+// @lc code=end
+
+
 
 /*
 // @lcpr case=start

@@ -60,9 +60,7 @@ var findMedianSortedArrays = function(nums1, nums2) {
         }
     }
 
-// @lc code=end
-
-/**
+    /**
  * 法一：对有序数组进行归并排序，再获取中位值
  *  - 时间复杂度O(m+n)，空间复杂度O(m+n)
  * 法二：二分查找（要求log时间复杂度时考虑）第k小的数
@@ -81,6 +79,9 @@ var findMedianSortedArrays = function(nums1, nums2) {
  * 
  * 视频：https://www.bilibili.com/video/BV1PL4y1g75o/?spm_id_from=333.337.search-card.all.click&vd_source=0803747abec14f63312f7ed860d78d60
  */
+// @lc code=end
+
+
 
 /*
 // @lcpr case=start

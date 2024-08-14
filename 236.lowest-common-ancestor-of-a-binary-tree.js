@@ -32,7 +32,6 @@ var lowestCommonAncestor = function(root, p, q) {
     if(!right) return left
     return root // p、q在root两侧，root为公共节点
 };
-// @lc code=end
 
 /*
 *   最近公共祖先的情况：
@@ -40,6 +39,9 @@ var lowestCommonAncestor = function(root, p, q) {
 *   2. p=root，q在p的子树
 *   3. q=root，p在q的子树
 */
+// @lc code=end
+
+
 
 /*
 // @lcpr case=start
