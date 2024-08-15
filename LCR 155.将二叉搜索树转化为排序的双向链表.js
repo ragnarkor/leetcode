@@ -44,11 +44,13 @@ var treeToDoublyList = function(root) {
 
     return head
 };
-// @lc code=end
 
 /**
- * 题解：Goodnotes-
+ * 题解：Goodnotes-回溯法/二叉树·BST与双向链表
  */
+// @lc code=end
+
+
 
 /*
 // @lcpr case=start

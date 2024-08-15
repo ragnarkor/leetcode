@@ -53,11 +53,13 @@ function digit(x) {
     }
     return res;
 }
-// @lc code=end
-
 /**
+ * 题解：Goodnotes-回溯法·机器人的运动范围
  * 原题为机器人的运动范围，题干改变后回溯遍历可直接考虑比向右/向下遍历，原题干还需证明。
  */
+// @lc code=end
+
+
 
 /*
 // @lcpr case=start

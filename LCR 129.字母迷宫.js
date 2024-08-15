@@ -54,11 +54,13 @@ function backTracking(board, word, i, j, startIndex){
     board[i][j] = word[startIndex]  // 恢复节点（相当于取消visited标记）
     return false    // 没有找到路径
 }
-// @lc code=end
-
 /**
+ * 题解：Goodnotes-回溯法·矩阵中的路径
  * 矩阵中的路径：https://www.bilibili.com/video/BV1Pt4y1V7DN/?spm_id_from=333.337.search-card.all.click&vd_source=0803747abec14f63312f7ed860d78d60
  */
+// @lc code=end
+
+
 
 /*
 // @lcpr case=start

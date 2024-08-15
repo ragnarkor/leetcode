@@ -37,7 +37,6 @@ var threeSum = function(nums) {
     }
     return res
 };
-// @lc code=end
 
 /**
  * 参考两数之和，可以使用双指针优化三数之和
@@ -55,6 +54,9 @@ var threeSum = function(nums) {
  *  - i+nums[i+1]+nums[i+2]>0，停止遍历i
  *  - i+j+k<0，向右移动i
  */
+// @lc code=end
+
+
 
 /*
 // @lcpr case=start

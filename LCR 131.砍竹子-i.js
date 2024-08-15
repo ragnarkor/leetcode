@@ -33,7 +33,6 @@ var cuttingBamboo = function(n) {
     // else if(y === 1) return 3 ** (x-1) * 4  // 1与3拼成4时，所得乘积为4，大于1和3
     // else return 3 ** x * 2  // 直接乘2返回
 };
-// @lc code=end
 
 /**
  * 法一：动态规划
@@ -44,6 +43,9 @@ var cuttingBamboo = function(n) {
  * 时间复杂度O(n^2)，空间复杂度O(n)
  * 题解：Goodnotes-动态规划·剪绳子
  */
+// @lc code=end
+
+
 
 /*
 // @lcpr case=start

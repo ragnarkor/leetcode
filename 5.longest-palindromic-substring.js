@@ -41,7 +41,6 @@ var longestPalindrome = function(s) {
     }
     return s.slice(startIndex, endIndex+1)
 };
-// @lc code=end
 
 /**
  * 动态规划思路：如果[i,j]为回文数组，只需判断i-1和j+1是否相同即可
@@ -56,6 +55,9 @@ var longestPalindrome = function(s) {
  * 比较最长子串位置
  * 返回i/j索引对应的字符串即可
  */
+// @lc code=end
+
+
 
 /*
 // @lcpr case=start

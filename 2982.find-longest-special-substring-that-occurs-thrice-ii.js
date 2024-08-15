@@ -35,8 +35,6 @@ var maximumLength = function(s) {
     }
     return res ? res : -1
 };
-// @lc code=end
-
 /**
  * 先分类统计各字符串长度，对于字符a，特殊子字符串情况：
  *  1. 如果最长子字符串长度为l1：
@@ -53,6 +51,9 @@ var maximumLength = function(s) {
  * 最后三种情况取最大值，即最长的特殊子字符串max(l1-2, min(l1-1, l2), l3)
  * 视频讲解：https://www.bilibili.com/video/BV1XG411B7bX/?t=1m44s&vd_source=0803747abec14f63312f7ed860d78d60
  */
+// @lc code=end
+
+
 
 
 /*

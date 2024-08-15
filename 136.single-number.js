@@ -19,13 +19,14 @@ var singleNumber = function(nums) {
     nums.forEach(num => result ^= num);
     return result;
 };
-// @lc code=end
-
 /**
  * 任何数和 0 做异或运算，结果仍然是原来的数，即a⊕0=a。
  * 任何数和其自身做异或运算，结果是 0，即a⊕a=0。
  * 异或运算满足交换律和结合律，即a⊕b⊕a=b⊕a⊕a=b⊕(a⊕a)=b⊕0=b。
  */
+// @lc code=end
+
+
 
 
 /*

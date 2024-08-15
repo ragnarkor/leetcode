@@ -15,6 +15,7 @@
  * @return {number}
  */
 var maxProfit = function(prices) {
+    // 思路：贪心，只要盈利就买入卖出
     let profit = 0;
     for(let i = 1; i < prices.length; i++){
       profit += Math.max(0,prices[i] - prices[i - 1]);
@@ -24,7 +25,6 @@ var maxProfit = function(prices) {
 // @lc code=end
 
 /**
- * 思路：贪心，只要盈利就买入卖出
  * 题解：https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/description/
  */
 

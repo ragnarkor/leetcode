@@ -48,14 +48,17 @@ var countPairsOfConnectableServers = function(edges, signalSpeed) {
         }
     }
     return count
+
+    /**
+     * 根服务器为nodes[0]，其余均为根服务器子树：
+     * 1. 从子树中dfs统计符合条件的节点数
+     * 2. 排列组合节点对数
+     *  - 第i个节点的对数 = 符合条件的i节点数 * ∑符合条件的前i-1个节点数
+     */
 };
 // @lc code=end
 
 /**
- * 根服务器为nodes[0]，其余均为根服务器子树：
- * 1. 从子树中dfs统计符合条件的节点数
- * 2. 排列组合节点对数
- *  - 第i个节点的对数 = 符合条件的i节点数 * ∑符合条件的前i-1个节点数
  * 视频题解：https://www.bilibili.com/video/BV1AU411F7Fp/?vd_source=0803747abec14f63312f7ed860d78d60
  */
 
