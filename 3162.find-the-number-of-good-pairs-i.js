@@ -52,7 +52,8 @@ var numberOfPairs = function(nums1, nums2, k) {
  *      - 如果cnt2[i]的倍数在cnt1中，则相加
  *      - 由于cnt1中nums1/k，所以cnt2中不需要考虑k
  *  4. 时间复杂度n+m+lnm
- * 题解：https://www.bilibili.com/video/BV17t421N7L6/?vd_source=0803747abec14f63312f7ed860d78d60
+ * 题解：https://leetcode.cn/problems/find-the-number-of-good-pairs-ii/solutions/2790631/tong-ji-yin-zi-ge-shu-pythonjavacgo-by-e-bl3o/
+ * 视频：https://www.bilibili.com/video/BV17t421N7L6/?vd_source=0803747abec14f63312f7ed860d78d60
  */
 // @lc code=end
 
